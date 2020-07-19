@@ -17,7 +17,7 @@ export default function Login() {
   if (mounted) {
     loginPage = (
       <div className="Loginup">
-        <NavigationPanel></NavigationPanel>
+        
         <Modal onSubmit={() => handleSubmit} />
       </div>
     );
