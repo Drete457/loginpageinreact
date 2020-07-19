@@ -1,4 +1,4 @@
-import React, { Component, useEffect } from "react";
+import React, { Component } from "react";
 import "../login.css";
 import { Motion, spring } from "react-motion";
 import Input from "./Input";
