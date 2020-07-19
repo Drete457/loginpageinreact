@@ -54,8 +54,8 @@ export default class Modal extends Component {
     ) {
       modalContent = (
         <div className="Modal">
-          <Sign type="signIn" onChange={this.onClickLeft}></Sign>
-          <Sign type="signUp" onChange={this.onClickRight}></Sign>
+          <Sign type="signUp" onChange={this.onClickLeft}></Sign>
+          <Sign type="signIn" onChange={this.onClickRight}></Sign>
         </div>
       );
     } else if (
@@ -65,10 +65,10 @@ export default class Modal extends Component {
       modalContent = (
         <div className="Modal">
           <SignCollapsed
-            type="signIn"
+            type="signUp"
             onChange={this.onClickLeft}
           ></SignCollapsed>
-          <SignExpanded type="signUp"></SignExpanded>
+          <SignExpanded type="signIn"></SignExpanded>
         </div>
       );
     } else if (
@@ -77,9 +77,9 @@ export default class Modal extends Component {
     ) {
       modalContent = (
         <div className="Modal">
-          <SignExpanded type="signIn"></SignExpanded>
+          <SignExpanded type="signUp"></SignExpanded>
           <SignCollapsed
-            type="signUp"
+            type="signIn"
             onChange={this.onClickRight}
           ></SignCollapsed>
         </div>
