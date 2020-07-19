@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "599756781bb48c37a3ee89c4c0d6798a",
+    "revision": "e70379487cc7e65248c83d2b294fb393",
     "url": "/loginpageinreact/index.html"
   },
   {
-    "revision": "1f34a19f1e27642364d5",
-    "url": "/loginpageinreact/static/css/main.464aaffa.chunk.css"
+    "revision": "f5b47c5f4524450cdd02",
+    "url": "/loginpageinreact/static/css/main.e5becd34.chunk.css"
   },
   {
     "revision": "e94fbb5a62251839fd15",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loginpageinreact/static/js/2.4960bb4c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1f34a19f1e27642364d5",
+    "revision": "f5b47c5f4524450cdd02",
     "url": "/loginpageinreact/static/js/main.5dcee7f6.chunk.js"
   },
   {
@@ -24,7 +24,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/loginpageinreact/static/js/runtime-main.cc6545b1.js"
   },
   {
-    "revision": "ce3ba97e0e8daf64911ce10659fe4c7a",
-    "url": "/loginpageinreact/static/media/fullhdbackground.ce3ba97e.jpg"
+    "revision": "7fa0983fb680eda7806d236c8940091e",
+    "url": "/loginpageinreact/static/media/fullhdbackground.7fa0983f.jpg"
   }
 ]);
