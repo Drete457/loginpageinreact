@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 
 html {
   font-family: "Roboto Condensed", sans-serif;
 }
 body {
-  background-image: url('../src/resources/images/fullhdbackground.jpg');
+  background-image: url("../src/resources/images/fullhdbackground.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  color: #3E363F;
+  color: #3e363f;
   font-family: "Roboto Condensed", sans-serif;
   height: 100vh;
   overflow: hidden;
@@ -89,10 +89,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: flex-grow .3s ease;
-  -moz-transition: flex-grow .3s ease;
-  -webkit-transition: flex-grow .3s ease;
-  -o-transition: flex-grow .3s ease;
+  transition: flex-grow 0.3s ease;
+  -moz-transition: flex-grow 0.3s ease;
+  -webkit-transition: flex-grow 0.3s ease;
+  -o-transition: flex-grow 0.3s ease;
 }
 
 .signIn:hover {
@@ -109,10 +109,10 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  transition: flex-grow .2s linear;
-  -moz-transition: flex-grow .2s linear;
-  -webkit-transition: flex-grow .2s linear;
-  -o-transition: flex-grow .2s linear;
+  transition: flex-grow 0.2s linear;
+  -moz-transition: flex-grow 0.2s linear;
+  -webkit-transition: flex-grow 0.2s linear;
+  -o-transition: flex-grow 0.2s linear;
 }
 
 .signInCollapsed:hover {
@@ -129,10 +129,10 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  transition: flex-grow .5s ease-out;
-  -moz-transition: flex-grow .5s ease-out;
-  -webkit-transition: flex-grow .5s ease-out;
-  -o-transition: flex-grow .5s ease-out;
+  transition: flex-grow 0.5s ease-out;
+  -moz-transition: flex-grow 0.5s ease-out;
+  -webkit-transition: flex-grow 0.5s ease-out;
+  -o-transition: flex-grow 0.5s ease-out;
 }
 
 .signUp {
@@ -145,10 +145,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: flex-grow .3s ease;
-  -moz-transition: flex-grow .3s ease;
-  -webkit-transition: flex-grow .3s ease;
-  -o-transition: flex-grow .3s ease;
+  transition: flex-grow 0.3s ease;
+  -moz-transition: flex-grow 0.3s ease;
+  -webkit-transition: flex-grow 0.3s ease;
+  -o-transition: flex-grow 0.3s ease;
 }
 
 .signUpCollapsed {
@@ -160,10 +160,10 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  transition: flex-grow .2s linear;
-  -moz-transition: flex-grow .2s linear;
-  -webkit-transition: flex-grow .2s linear;
-  -o-transition: flex-grow .2s linear;
+  transition: flex-grow 0.2s linear;
+  -moz-transition: flex-grow 0.2s linear;
+  -webkit-transition: flex-grow 0.2s linear;
+  -o-transition: flex-grow 0.2s linear;
 }
 
 .signUpCollapsed:hover {
@@ -179,10 +179,10 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: flex-grow .5s ease-out;
-  -moz-transition: flex-grow .2s ease-out;
-  -webkit-transition: flex-grow .5s ease-out;
-  -o-transition: flex-grow .5s ease-out;
+  transition: flex-grow 0.5s ease-out;
+  -moz-transition: flex-grow 0.2s ease-out;
+  -webkit-transition: flex-grow 0.5s ease-out;
+  -o-transition: flex-grow 0.5s ease-out;
 }
 
 .signUp:hover {
@@ -225,13 +225,13 @@ body {
   border-bottom: 1px solid rgba(255, 252, 232, 0.1);
   padding: 10px;
   margin-bottom: 15px;
-  color: #FFFCE8;
+  color: #fffce8;
   text-transform: uppercase;
 }
 
 .Input input {
   border: 0;
-  color: #FFFCE8;
+  color: #fffce8;
   background: transparent;
   font-family: "Roboto Condensed", sans-serif;
   flex: 1 0 auto;
@@ -243,19 +243,19 @@ body {
   opacity: 1;
 }
 
-.Input input[type='text'] ~ label::before {
+.Input input[type="text"] ~ label::before {
   content: "\f007";
 }
 
-.Input input::-webkit-input-placeholder{
-  color: #FFFFFF;
+.Input input::-webkit-input-placeholder {
+  color: #ffffff;
 }
 
-.Input input[type='email'] ~ label::before {
+.Input input[type="email"] ~ label::before {
   content: "\f1fa";
 }
 
-.Input input[type='password'] ~ label::before {
+.Input input[type="password"] ~ label::before {
   content: "\f023";
 }
 
@@ -265,7 +265,7 @@ body {
 
 .iconVisibility:hover {
   opacity: 1;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 .submitButton {
@@ -300,8 +300,8 @@ body {
 }
 
 button {
-  right: 0; 
-  border: 0; 
+  right: 0;
+  border: 0;
   border-radius: 18px;
   color: white;
   font-family: "Roboto Condensed", sans-serif;
@@ -342,13 +342,13 @@ button:active {
 
 .loginpagetransition-enter {
   margin-top: 30px;
-  opacity: .01;
+  opacity: 0.01;
 }
 
 .loginpagetransition-enter.loginpagetransition-enter-active {
   margin-top: 0px;
   opacity: 1;
-  transition: opacity .5s ease, margin .5s ease;
+  transition: opacity 0.5s ease, margin 0.5s ease;
 }
 
 .loginpagetransition-leave {
@@ -358,6 +358,6 @@ button:active {
 
 .loginpagetransition-leave.loginpagetransition-leave-active {
   margin-top: -30px;
-  opacity: .01;
-  transition: opacity .3s ease, margin .5s ease;
+  opacity: 0.01;
+  transition: opacity 0.3s ease, margin 0.5s ease;
 }

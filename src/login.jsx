@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./login.css";
 import { TransitionGroup } from "react-transition-group";
-import NavigationPanel from "./components/NavigationPanel";
 import Modal from "./components/Modal";
 
 export default function Login() {
@@ -17,7 +16,6 @@ export default function Login() {
   if (mounted) {
     loginPage = (
       <div className="Loginup">
-        
         <Modal onSubmit={() => handleSubmit} />
       </div>
     );
