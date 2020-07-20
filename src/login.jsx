@@ -24,9 +24,9 @@ export default function Login() {
   return (
     <div className="Login">
       <TransitionGroup
-        transitioname="loginpagetransition"
-        transitionentertimeout={500}
-        transitionleavetimeout={300}
+        transitionName="loginpagetransition"
+        transitionEnterTimeout={500}
+        transitionLeaveTimeout={300}
       >
         {loginPage}
       </TransitionGroup>
