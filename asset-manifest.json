@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/loginpageinreact/static/css/main.e5becd34.chunk.css",
-    "main.js": "/loginpageinreact/static/js/main.0ace20e1.chunk.js",
-    "main.js.map": "/loginpageinreact/static/js/main.0ace20e1.chunk.js.map",
+    "main.css": "/loginpageinreact/static/css/main.4e6aeab1.chunk.css",
+    "main.js": "/loginpageinreact/static/js/main.aba463ea.chunk.js",
+    "main.js.map": "/loginpageinreact/static/js/main.aba463ea.chunk.js.map",
     "runtime-main.js": "/loginpageinreact/static/js/runtime-main.cc6545b1.js",
     "runtime-main.js.map": "/loginpageinreact/static/js/runtime-main.cc6545b1.js.map",
     "static/js/2.4960bb4c.chunk.js": "/loginpageinreact/static/js/2.4960bb4c.chunk.js",
     "static/js/2.4960bb4c.chunk.js.map": "/loginpageinreact/static/js/2.4960bb4c.chunk.js.map",
     "index.html": "/loginpageinreact/index.html",
-    "precache-manifest.1371cb5a8b62fb27044fbea1c743b029.js": "/loginpageinreact/precache-manifest.1371cb5a8b62fb27044fbea1c743b029.js",
+    "precache-manifest.55eb437363ad024f458db531b6cee39a.js": "/loginpageinreact/precache-manifest.55eb437363ad024f458db531b6cee39a.js",
     "service-worker.js": "/loginpageinreact/service-worker.js",
-    "static/css/main.e5becd34.chunk.css.map": "/loginpageinreact/static/css/main.e5becd34.chunk.css.map",
+    "static/css/main.4e6aeab1.chunk.css.map": "/loginpageinreact/static/css/main.4e6aeab1.chunk.css.map",
     "static/js/2.4960bb4c.chunk.js.LICENSE.txt": "/loginpageinreact/static/js/2.4960bb4c.chunk.js.LICENSE.txt",
     "static/media/login.css": "/loginpageinreact/static/media/fullhdbackground.7fa0983f.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cc6545b1.js",
     "static/js/2.4960bb4c.chunk.js",
-    "static/css/main.e5becd34.chunk.css",
-    "static/js/main.0ace20e1.chunk.js"
+    "static/css/main.4e6aeab1.chunk.css",
+    "static/js/main.aba463ea.chunk.js"
   ]
 }
